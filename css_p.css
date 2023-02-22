@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+  }
+
+#columna_1{
+    box-sizing: border-box;
+    position: absolute;
+    height:100%;
+    width: 80%;
+    left: 20%;
+    background-color: rgb(203, 218, 199);
+}
+
+#fname{
+    font-family: 'Cinzel', serif;
+    background-color: rgb(203, 218, 199);
+    font-weight: bold;
+    border-style: hidden;
+    font-size: 30px;
+    text-align: center;
+}
+
+#job{
+    font-family: 'Cinzel', serif;
+    background-color: rgb(203, 218, 199);
+    font-weight: lighter;
+    border-style: hidden;
+    font-size: 25px;
+    text-align: center;
+}
+
+#fdatos{
+    background-color: rgb(34, 63, 26);  
+    color: white;
+    border-style: hidden;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.change::placeholder{
+    color: white;
+}
+
+select{
+    width: 100px;
+}
+
+
+
+#text{
+    padding: 15px;
+    background-color: rgb(203, 218, 199);
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    text-align: start;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    margin: 0px 0;
+    resize: none;
+    text-overflow: ellipsis;
+    vertical-align: baseline;
+    word-break: break-all;
+    text-indent: 15px;
+}
+
+#text2{
+    resize: none;
+}
+
+#nombreProfesion{
+    padding: 50px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+
+
+
+
+#columna_2{
+    box-sizing: border-box;
+    position: absolute;
+    height:100%;
+    width: 20%;
+    background-color: rgb(34, 63, 26);  
+    color: white;
+}
+
+article, h3{
+    padding: 15px;
+    margin: 0px 0;
+}
+
+#pic{
+    width: 180px;
+    height: 180px;
+    border-radius: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25%;
+}
+
+h4{
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
+}
+
+#img{
+    display: none;
+}
+
+#cargar_img{
+    display: block;
+    width: 100px;
+    background: rgb(203, 218, 199);
+    color: black;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
